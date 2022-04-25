@@ -23,7 +23,7 @@ class BaseController extends Controller
             $adminHomeRoute= 'admin.home';
         view()->share('adminHomeRoute',$adminHomeRoute );
 
-        CoreHelper::LoadConfig();
+        //CoreHelper::LoadConfig();
     }
     /**
      * @param $msg
