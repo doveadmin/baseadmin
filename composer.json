@@ -1,0 +1,26 @@
+{
+  "name": "dacore/baseadmin",
+  "description": "is DACore Base Admin Packages",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "DACore DoveCat",
+      "email": "no@dacore.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "DACore\\BaseAdmin\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DACore\\BaseAdmin\\ServiceProvider"
+      ]
+    }
+  }
+}
