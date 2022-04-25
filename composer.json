@@ -14,8 +14,8 @@
   "autoload": {
     "psr-4": {
       "DACore\\BaseAdmin\\": "src/",
-      "DACore\\BaseAdmin\\Controllers": "src/Http/Controllers",
-      "DACore\\BaseAdmin\\Middleware": "src/Http/Middleware"
+      "DACore\\BaseAdmin\\Controllers\\": "src/Http/Controllers",
+      "DACore\\BaseAdmin\\Middleware\\": "src/Http/Middleware"
     }
   },
   "extra": {
